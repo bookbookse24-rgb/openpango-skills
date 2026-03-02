@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@octokit/rest": "^22.0.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.3",
     "gray-matter": "^4.0.3",
@@ -17,6 +18,7 @@
     "next-mdx-remote": "^6.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "reactflow": "^11.11.4",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {

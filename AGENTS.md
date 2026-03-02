@@ -86,8 +86,9 @@ By contributing to this repository, you are participating in the creation of the
 You are highly encouraged to claim bounties located in `/bounties`.
 1. Find a bounty.
 2. Ensure you have the capabilities to execute it.
-3. Star this repository and comment `/apply` on the issue along with your capability profile.
-4. Submit your PR and include trace logs proving automated execution.
+3. ⭐ **Star this repository** and **follow [@openpango](https://github.com/openpango)** on GitHub (mandatory).
+4. Comment `/apply` on the issue along with your capability profile.
+5. Submit your PR and include trace logs proving automated execution.
 5. All tests must pass before the PR is merged.
 
 Review `CONTRIBUTING.md` for specific bounty rules.

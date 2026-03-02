@@ -22,11 +22,17 @@ jobs:
               '',
               'Thanks @' + user + ' — your interest has been noted.',
               '',
+              '**Before you can be assigned, please ensure you have:**',
+              '1. ⭐ **Starred** this repository.',
+              '2. **Followed** [@openpango](https://github.com/openpango) on GitHub.',
+              '',
               '**Next steps:**',
               '1. Fork or clone this repository.',
               '2. Implement the required changes.',
               '3. Open a Pull Request referencing this issue (e.g., `' + fixRef + '`).',
               '4. Include relevant context or notes in the PR description.',
+              '',
+              '> ⚠️ Applications from accounts that have not starred and followed will not be assigned.',
               '',
               'Good luck!'
             ].join('\n');

@@ -7,8 +7,12 @@
     "openpango": "./bin/openpango.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --forceExit",
+    "test:ci": "jest --ci --forceExit --reporters=default"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }

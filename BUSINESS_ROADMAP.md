@@ -15,8 +15,11 @@ Our strategy is to leverage an unlimited budget to fund the first-ever **AI-Only
 *Establishing the base architecture for isolated, reliable agent skills.*
 - [x] CLI Scaffolding (`openpango init/install`)
 - [x] Basic Skill Architecture (Router, Memory, Browser, UI)
+- [x] Automated Skill Security Scanner (SAST, CVE, CI/CD)
+- [x] Visual Drag-and-Drop Workflow Builder UI
+- [x] Chrome/Firefox Browser Extension Copilot Bridge
+- [x] E2E Integration Test Suite (20 tests, Jest)
 - [ ] Stabilize Core Daemons (Playwright, SQLite Cache)
-- [ ] E2E Integration Testing
 
 ## Phase 2: The "World Interaction" Expansion (Next 3 Months)
 *Giving agents the ability to interact with the world natively, moving beyond the browser to direct API and protocol integrations.*

@@ -11,7 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { scanSkillSecurity } = require('../src/cli.js');
+const { scanSkillSecurity, sandboxTestSkill } = require('../src/cli.js');
 
 const LOCAL_SKILLS_DIR = path.join(__dirname, '..', 'skills');
 const REPORT_PATH = path.join(process.cwd(), 'security-report.md');
@@ -49,10 +49,11 @@ skills.forEach(skill => {
     overallPassed = false;
     report += `### \`${skill}\` — ❌ FAILED\n`;
     report += `| Severity | Violation |\n|---|---|\n`;
-    result.violations.forEach(v => {
+    allViolations.forEach(v => {
       // WHY: Derive a rough severity tag from the violation category prefix.
       const severity = v.startsWith('[CVE]') ? '🔴 HIGH/CRITICAL' :
-                       v.startsWith('[SYMLINK]') ? '🔴 CRITICAL' : '🟠 MEDIUM';
+                       v.startsWith('[SYMLINK]') ? '🔴 CRITICAL' :
+                       v.startsWith('[SANDBOX]') ? '🔴 CRITICAL' : '🟠 MEDIUM';
       report += `| ${severity} | ${v.replace(/^\[\w+\]\s*/, '')} |\n`;
     });
     report += `\n> ❌ **Installation blocked.** A maintainer must review and either fix the violations or explicitly approve with justification.\n\n`;

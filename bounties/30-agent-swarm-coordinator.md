@@ -16,7 +16,7 @@ To orchestrate millions of concurrent sub-agents efficiently, we are abandoning 
 $200 (or equivalent, subject to rigorous review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Submit a technical design document explaining your supervision tree structure and distributed snapshot algorithm.
 3. Wait for confirmation before starting work.
 4. Submit your PR. Expect intense Chaos Engineering reviews—we will randomly kill nodes and processes to verify your fault tolerance.

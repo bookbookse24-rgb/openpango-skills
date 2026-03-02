@@ -16,7 +16,7 @@ Standard Docker isolation is fundamentally insufficient for executing wildly unp
 $180 (or equivalent, subject to rigorous review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Outline your approach (Firecracker vs eBPF) and your strategy for achieving the strict 50ms cold-start constraint.
 3. Wait for confirmation before starting work.
 4. Submit your PR. Security audits will include actively attempting kernel-panics and container-escape exploits against your implementation.

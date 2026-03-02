@@ -16,7 +16,7 @@ Standard Playwright/Puppeteer wrappers are too easily detected by Cloudflare, Da
 $85 (or equivalent, subject to rigorous review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Provide a brief technical architecture proposal (1-2 pages) explaining your fingerprint evasion strategy and CDP multiplexing approach.
 3. Wait for confirmation before starting work.
 4. Submit your PR. Expect intense code review and live evasion testing against enterprise bot-firewalls.

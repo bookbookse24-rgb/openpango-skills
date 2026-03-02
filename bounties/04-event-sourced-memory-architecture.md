@@ -16,7 +16,7 @@ A simple SQLite database is insufficient for an infinitely scaling swarm of agen
 $120 (or equivalent, subject to rigorous review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Provide a formal proof or technical whitepaper detailing how your CRDT implementation will handle concurrent multi-node task mutation and causal ordering.
 3. Wait for confirmation before starting work.
 4. Submit your PR. We will subject the code to Jepsen testing to verify its partition tolerance (CAP theorem).

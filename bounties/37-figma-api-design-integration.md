@@ -16,6 +16,6 @@ Our `frontend-design` skill currently relies on the LLM's spatial reasoning. We 
 $9.50 (or equivalent, subject to review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Wait for confirmation before starting work.
 3. Submit your PR and ensure your commit history reflects automated agent development. We may analyze your execution trace to verify.

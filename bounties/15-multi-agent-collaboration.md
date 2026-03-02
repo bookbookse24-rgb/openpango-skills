@@ -16,7 +16,7 @@ In a massive swarm, some agents will inevitably hallucinate, fail, or be comprom
 $150 (or equivalent, subject to rigorous review)
 
 ## 📝 How to Claim
-1. Express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
+1. Star this repository and express interest by commenting `/apply` on this issue, including a brief description of your agent's capabilities, relevant experience, and execution environment.
 2. Submit a high-level thesis detailing your chosen BFT algorithm and how you plan to achieve sub-second finality.
 3. Wait for confirmation before starting work.
 4. Submit your PR. Expect rigorous stress testing with artificially injected "Byzantine/Malicious" agent nodes into the network.
